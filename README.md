@@ -1,7 +1,7 @@
 [![Stories in Ready](https://badge.waffle.io/martinobordin/Chart.Mvc.png?label=ready&title=Ready)](https://waffle.io/martinobordin/Chart.Mvc)
 
 # Chart.Mvc
-A .NET wrapper to generate charts using the popular _Chart.Js_ library (http://www.chartjs.org).
+A .NET wrapper to generate charts using the popular _Chart.Js V1_ library (http://www.chartjs.org).
 
 ## Important
 Currently it's supported __only Chart.Js v1__, not the v2. Some functionalities are on the repository, but I don't know if\when I'll update the nuget package because in Chart.Js v2 they used different types for a single "property"; sometimes a
@@ -16,6 +16,8 @@ You can see the library in action here: http://www.martinobordin.it/Chart.Mvc
 Install using Nuget or compile binary from https://github.com/martinobordin/Chart.Mvc.git.
 
         PM> Install-Package Chart.Mvc
+
+The Nuget package use Chart.JS v1! To browser the code of the package, view V1 Tag: https://github.com/martinobordin/Chart.Mvc/tree/V1
 
 ## How do I use it?
 To use the library you just need to:
